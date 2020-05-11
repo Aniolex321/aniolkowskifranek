@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset=utf-8>
+<title>Grótta w Reykjavíku</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<body id="body">
+	<div id="zawar">
+	
+		<div id="log">
+		
+			<h1>✈ Grótta w Reykjavíku</h1>
+			
+		</div>
+		<br>
+		<div id="main">
+		
+		<h2 id="h2">Grótta – wyspa u zachodniego wybrzeża Islandii, w zatoce Faxaflói.
+		Leży na terenie miasta Seltjarnarnes, na zachód od jego centrum.
+		Wyspa połączona jest groblą ze stałym lądem, po której, z zachowaniem ostrożności można na nią dotrzeć pieszo, lecz tylko w czasie odpływu.</h2> <br><br>
+		<table id="tabela">
+			<tr>
+				<th id="th">Liczba mieszkańców:</th>
+				<th id="th">Metry nad poziomem morza:</th> 
+			</tr>
+			<tr>
+				<td id="td">0</td>
+				<td id="td">1 m n.p.m</td> 
+			</tr>
+		</table>
+		<br><br>
+			<div id="ciekawostki">
+				<h1>CIEKAWOSTKI</h1>
+					
+						<ol>
+						<li id="lista1">W XVI wieku istniało tu gospodarstwo</li>
+						<li id="lista1">Grótta wywodzi się ze staroislandzkiego słowa oznaczającego młyn, w którym mieli się pszenicę</li>
+						<li id="lista1">W 1897 roku na wyspie powstała pierwsza latarnia morska Gróttuviti, a ta, która istnieje obecnie pochodzi z 1947r</li>
+						<li id="lista1">Wyspę można zwiedzać o każdej porze roku, również zimą</li>
+						<li id="lista1">Ma małe zanieczyszczenie światłem, co czyni ją jednym z najbardziej popularnych miejsc w okolicach Reykjavíku, w którym można podziwiać zorzę polarną</li>
+						</ol>
+			</div>
+		
+		
+		
+		
+		</div>
+		<div id="slider">
+			<img class="mySlides" src="zdjecia/slajd1.jpg">
+			<img class="mySlides" src="zdjecia/slajd2.jpg">
+			<img class="mySlides" src="zdjecia/slajd3.jpg">
+			<img class="mySlides" src="zdjecia/slajd4.jpg">
+		</div>
+		<div id="podslider">
+			<div id="drabina1">
+				<a href="https://pl.wikipedia.org/wiki/Grótta" class="a11" target="blank">Wikipedia</a>
+			</div>
+	
+			<div id="drabina1">
+				<a href="https://www.google.com/maps/place/Grótta,+Seltjarnarnes,+Islandia/data=!4m2!3m1!1s0x48d60aeea2eeaa69:0xb7c61001611f14e3?sa=X&ved=2ahUKEwjU1_bh_pLpAhUQ36QKHWrQDAgQ8gEwAHoECAsQAQ" class="a11" target="blank">Mapa</a>
+			</div>
+			
+			<div id="drabina1">
+				<a href="https://www.google.com/search?source=univ&tbm=isch&q=gr%C3%B3tta+zdj%C4%99cia&sa=X&ved=2ahUKEwjdqI2C_5LpAhXBjqQKHSVTCuoQsAR6BAgKEAE&biw=1506&bih=1034" class="a11" target="blank">Zdjęcia</a>
+			</div>
+			<div id="drabina1">
+				<a href="https://guidetoiceland.is/travel-iceland/drive/grotta" class="a11" target="blank">Przewodnik</a>
+			</div>
+		</div>
+		
+		<div id="stopka">
+			<a href="index.html" class="AA">POWRÓT NA STRONĘ GŁÓWNĄ</a>
+			<br>
+		</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+</body>
+</html>

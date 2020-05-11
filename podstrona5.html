@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset=utf-8>
+<title>Skały Hvítserkur</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<body id="body">
+	<div id="zawar">
+	
+		<div id="log">
+		
+			<h1>✈ Basen Hofsós</h1>
+			
+		</div>
+		<br>
+		<div id="main">
+		
+		<h2 id="h2">
+Położony w północno-zachodniej części Hofsós jest jednym z najstarszych punktów handlowych na Islandii,
+ którego historia sięga XVI wieku. Dziś jest to senna wioska rybacka, choć turystyka zyskuje na popularności dzięki niedawnemu dodaniu designerskiego basenu.</h2> <br><br>
+		<table id="tabela">
+			<tr>
+				<th id="th">Współrzędne basenu:</th>
+				<th id="th">Populacja:</th> 
+			</tr>
+			<tr>
+				<td id="td">65.900180, -19.416777</td>
+				<td id="td">190 osób</td> 
+			</tr>
+		</table>
+		<br><br>
+			<div id="ciekawostki">
+				<h1>CIEKAWOSTKI</h1
+					<ul>
+					  <li id="lista1">
+						W ostatnich latach Hofsós stał się atrakcją turystyczną i posiada Islandzkie Centrum Emigracji (Vesturfarasetrið á Hofsósi), 
+						poświęcone migracji na zachód do Ameryki Północnej Islandczyków,
+						którzy osiągnęli swój szczyt na początku XIX wieku.</li><br>
+					  <li id="lista1">
+						W czasach głodu po wielkich erupcjach,
+						zwłaszcza od XVIII wieku do początku XX wieku, wielu Islandczyków przekroczyło
+						Atlantyk w nadziei na lepsze życie. Islandia straciła 16 000 mieszkańców w latach 1870–1914, wszyscy realizując marzenie o „nowej Islandii”.</li>
+					</ul>
+			</div>
+		
+		
+		
+		
+		</div>
+		<div id="slider">
+			<img class="mySlides" src="zdjecia/slajd17.jpg">
+			<img class="mySlides" src="zdjecia/slajd18.jpg">
+			<img class="mySlides" src="zdjecia/slajd19.jpg">
+			<img class="mySlides" src="zdjecia/slajd20.jpg">
+		</div>
+		<div id="podslider">
+			<div id="drabina1">
+				<a href="https://en.wikipedia.org/wiki/Hofsós" class="a11" target="blank">Wikipedia</a>
+			</div>
+	
+			<div id="drabina1">
+				<a href="https://www.google.com/maps/search/Basen+Hofsós/@65.9433214,-19.7092876,11z/data=!3m1!4b1" class="a11" target="blank">Mapa</a>
+			</div>
+			
+			<div id="drabina1">
+				<a href="https://www.google.com/search?q=Basen+Hofs%C3%B3s&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjLxMyOw5PpAhUMwqYKHV-hAvQQ_AUoAnoECBYQBA&biw=1506&bih=1034" class="a11" target="blank">Zdjęcia</a>
+			</div>
+			<div id="drabina1">
+				<a href="https://guidetoiceland.is/travel-iceland/drive/hofsos" class="a11" target="blank">Przewodnik</a>
+			</div>
+		</div>
+		
+		<div id="stopka">
+			<a href="index.html" class="AA">POWRÓT NA STRONĘ GŁÓWNĄ</a>
+			<br>
+		</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset=utf-8>
+<title>Skały Hvítserkur</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<body id="body">
+	<div id="zawar">
+	
+		<div id="log">
+		
+			<h1>✈ Wodospad Glymur</h1>
+			
+		</div>
+		<br>
+		<div id="main">
+		
+		<h2 id="h2">
+			Glymur – drugi najwyższy wodospad na Islandii o wysokości 198 m, położony w zachodniej Islandii na niewielkiej
+			rzece Botnsá. Wypływa ona z jeziora Hvalvatn na wysokości 378 m n.p.m., by po 9 km dotrzeć do zatoki Hvalfjörður,
+			po drodze opadając w postaci wodospadu Glymur</h2> <br><br>
+		<table id="tabela">
+			<tr>
+				<th id="th">Współrzędne wodospadu:</th>
+				<th id="th">Wysokość:</th> 
+			</tr>
+			<tr>
+				<td id="td">64.391796, -21.250581</td>
+				<td id="td">198 m</td> 
+			</tr>
+		</table>
+		<br><br>
+			<div id="ciekawostki">
+				<h1>CIEKAWOSTKI</h1
+					<ul>
+					  <li id="lista1">
+Glymur widnieje w oficjalnych publikacjach jako najwyższy wodospad na wyspie. W 2007 roku w południowej Islandii na obrzeżu lodowca Morsárjökull odkryto jednak wyższy wodospad, nazwany później Morsárfoss, który mierzy 239 m wysokości</li><br>
+					  <li id="lista1">Glymur położony jest na końcu wąwozu rzeki Botnsá (dolina Botndalur), u podnóża góry Hvalfell (848 m n.p.m.). Leży stosunkowo na uboczu, z dala od głównych traktów. Do wylotu doliny można dotrzeć drogą nr 47. Od momentu powstania tunelu Hvalfjörður pod dnem fiordu Hvalfjörður, koło miasta Akranes, którym biegnie obecnie główna droga nr 1, droga nr 47, a tym samym okolica wodospadu, odwiedzana jest prawie wyłącznie przez turystów.</li>
+					</ul>
+			</div>
+		
+		
+		
+		
+		</div>
+		<div id="slider">
+			<img class="mySlides" src="zdjecia/slajd21.jpg">
+			<img class="mySlides" src="zdjecia/slajd22.jpg">
+			<img class="mySlides" src="zdjecia/slajd23.jpg">
+			<img class="mySlides" src="zdjecia/slajd24.jpg">
+		</div>
+		<div id="podslider">
+			<div id="drabina1">
+				<a href="https://pl.wikipedia.org/wiki/Glymur" class="a11" target="blank">Wikipedia</a>
+			</div>
+	
+			<div id="drabina1">
+				<a href="https://www.google.com/maps/place/Glymur+Waterfall/@64.3916755,-21.252759,17z/data=!3m1!4b1!4m5!3m4!1s0x48d42b9fbb5a03c1:0x6280b4efc4085dd7!8m2!3d64.3916755!4d-21.2505703?hl=pl" class="a11" target="blank">Mapa</a>
+			</div>
+			
+			<div id="drabina1">
+				<a href="https://www.google.com/search?q=Wodospad+Glymur&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjh1ZK2yJPpAhUwyKYKHTMqAHAQ_AUoAXoECBsQAw&biw=1506&bih=1034" class="a11" target="blank">Zdjęcia</a>
+			</div>
+			<div id="drabina1">
+				<a href="https://guidetoiceland.is/travel-iceland/drive/glymur" class="a11" target="blank">Przewodnik</a>
+			</div>
+		</div>
+		
+		<div id="stopka">
+			<a href="index.html" class="AA">POWRÓT NA STRONĘ GŁÓWNĄ</a>
+			<br>
+		</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+</body>
+</html>

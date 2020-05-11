@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset=utf-8>
+<title>Skały Hvítserkur</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<body id="body">
+	<div id="zawar">
+	
+		<div id="log">
+		
+			<h1>✈ Skały Hvítserkur</h1>
+			
+		</div>
+		<br>
+		<div id="main">
+		
+		<h2 id="h2">Hvítserkur, zwany inaczej Trollem z północno-zachodniej Islandii, to 15-metrowy stos kamieni bazaltowych wystający z zatoki Húnaflói. Skała jest miejscem gniazdowania mew, kudły i fulmaru, co sprawia, że ​​wydaje się stale w ruchu, co jeszcze bardziej wymusza ideę, że Hvítserkur jest w pewien sposób bardzo żywy.</h2> <br><br>
+		<table id="tabela">
+			<tr>
+				<th id="th">Współrzędne skał:</th>
+				<th id="th">Wysokość:</th> 
+			</tr>
+			<tr>
+				<td id="td">65.606056, -20.635365</td>
+				<td id="td">15 m</td> 
+			</tr>
+		</table>
+		<br><br>
+			<div id="ciekawostki">
+				<h1>CIEKAWOSTKI</h1
+					<ul>
+					  <li id="lista1">
+Folklor mówi, że Hvítserkur był pierwotnie trollem z półwyspu, zdeterminowanym, by zburzyć dzwony z klasztoru Þingeyraklaustur; trolle, w przeciwieństwie do elfów, są przerażone chrześcijaństwem.</li><br>
+					  <li id="lista1">Społeczność naukowa ma inne wyjaśnienie, w jaki sposób powstał Hvítserkur. Erozja z kaskadowej wody morskiej wyrzeźbiła trzy duże dziury przez bazaltową skałę, rzeźbiąc ją i kształtując w coś, co wygląda jak jakieś skamieniałe, mitologiczne zwierzę.można dostać się specjalną ścieżką</li>
+					</ul>
+			</div>
+		
+		
+		
+		
+		</div>
+		<div id="slider">
+			<img class="mySlides" src="zdjecia/slajd9.jpg">
+			<img class="mySlides" src="zdjecia/slajd10.jpg">
+			<img class="mySlides" src="zdjecia/slajd11.jpg">
+			<img class="mySlides" src="zdjecia/slajd12.jpg">
+		</div>
+		<div id="podslider">
+			<div id="drabina1">
+				<a href="https://en.wikipedia.org/wiki/Hvítserkur" class="a11" target="blank">Wikipedia</a>
+			</div>
+	
+			<div id="drabina1">
+				<a href="https://www.google.com/maps/search/Hvítserkur+map/@65.5645428,-20.7125307,12z/data=!3m1!4b1" class="a11" target="blank">Mapa</a>
+			</div>
+			
+			<div id="drabina1">
+				<a href="https://www.google.com/search?q=Hv%C3%ADtserkur&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjPxvTCh5PpAhWLjqQKHQQbA0YQ_AUoAXoECBEQAw&cshid=1588349692290323&biw=1506&bih=1034" class="a11" target="blank">Zdjęcia</a>
+			</div>
+			<div id="drabina1">
+				<a href="https://guidetoiceland.is/travel-iceland/drive/hvitserkur" class="a11" target="blank">Przewodnik</a>
+			</div>
+		</div>
+		
+		<div id="stopka">
+			<a href="index.html" class="AA">POWRÓT NA STRONĘ GŁÓWNĄ</a>
+			<br>
+		</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+</body>
+</html>

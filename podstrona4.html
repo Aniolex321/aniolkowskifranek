@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset=utf-8>
+<title>Skały Hvítserkur</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<body id="body">
+	<div id="zawar">
+	
+		<div id="log">
+		
+			<h1>✈ Skały Hvítserkur</h1>
+			
+		</div>
+		<br>
+		<div id="main">
+		
+		<h2 id="h2">
+Fjaðrárgljúfur – kanion w południowej Islandii na rzece Fjaðrá, lewym dopływie rzeki Skaftá, około 6 km na zachód od miejscowości Kirkjubæjarklaustur[1]. 
+Kanion ma około 2 km długości i 100 m głębokości. Jest zbudowany głównie z palagonitów, 
+które powstały około 2 miliony lat temu. Sam kanion został uformowany pod koniec ostatniej epoki lodowcowej około 9 tys.
+ lat temu. W trakcie wycofywywania się lodowca powstało jezioro,
+ z którego wypływała rzeka o dużej sile, zdolnej do wytworzenia kanionu.
+ Po wypełnieniu jeziora osadami niesionymi przez rzeki lodowcowe,
+ moc rzeki przepływającej przez kanion osłabła</h2> <br><br>
+		<table id="tabela">
+			<tr>
+				<th id="th">Współrzędne kanionu:</th>
+				<th id="th">Wysokość:</th> 
+			</tr>
+			<tr>
+				<td id="td">63.771435, -18.171869</td>
+				<td id="td">100 m</td> 
+			</tr>
+		</table>
+		<br><br>
+			<div id="ciekawostki">
+				<h1>CIEKAWOSTKI</h1
+					<ul>
+					  <li id="lista1">
+							Fjaðrárgljúfur położony jest
+							na terenie geoparku Katla Geopark,
+							obejmującego południową część Islandii w okolicach lodowca Mýrdalsjökull i wschodniej części lodowca Vatnajökull</li><br>
+					  <li id="lista1">
+					  Do kanionu można dotrzeć drogą nr 206 odchodzącej od głównej drogi krajowej nr 1. Sam kanion można obejrzeć zarówno z góry ze ścieżki prowadzącej wzdłuż krawędzi,
+					  jak i z dołu spacerując dnem kanionu</li>
+					</ul>
+			</div>
+		
+		
+		
+		
+		</div>
+		<div id="slider">
+			<img class="mySlides" src="zdjecia/slajd13.jpg">
+			<img class="mySlides" src="zdjecia/slajd14.jpg">
+			<img class="mySlides" src="zdjecia/slajd15.jpg">
+			<img class="mySlides" src="zdjecia/slajd16.jpg">
+		</div>
+		<div id="podslider">
+			<div id="drabina1">
+				<a href="https://pl.wikipedia.org/wiki/Fjaðrárgljúfur" class="a11" target="blank">Wikipedia</a>
+			</div>
+	
+			<div id="drabina1">
+				<a href="https://www.google.com/maps/place/Fjaðrárgljúfur/@63.771279,-18.1740045,17z/data=!3m1!4b1!4m5!3m4!1s0x48d0e5f0594291dd:0xa420ecc17165b5bd!8m2!3d63.771279!4d-18.1718158" class="a11" target="blank">Mapa</a>
+			</div>
+			
+			<div id="drabina1">
+				<a href="https://www.google.com/search?q=fja%C3%B0r%C3%A1rglj%C3%BAfur+wikipedia&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiXxOTlwJPpAhWvURUIHXyHDSoQ_AUoAXoECAwQAw&biw=1506&bih=1034" class="a11" target="blank">Zdjęcia</a>
+			</div>
+			<div id="drabina1">
+				<a href="https://guidetoiceland.is/travel-iceland/drive/fjadrargljufur" class="a11" target="blank">Przewodnik</a>
+			</div>
+		</div>
+		
+		<div id="stopka">
+			<a href="index.html" class="AA">POWRÓT NA STRONĘ GŁÓWNĄ</a>
+			<br>
+		</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+</body>
+</html>

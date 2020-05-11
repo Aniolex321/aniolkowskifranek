@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset=utf-8>
+<title>Skały Hvítserkur</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<body id="body">
+	<div id="zawar">
+	
+		<div id="log">
+		
+			<h1>✈ Skały Hvítserkur</h1>
+			
+		</div>
+		<br>
+		<div id="main">
+		
+		<h2 id="h2">Rauðisandur lub Rauðasandur to miejscowość w Vestur-Bardörandarsýsla, która biegnie ze Skorarhlíð do Látrabjargi . Niziny są raczej smukłe, a stamtąd wznoszą się góry o stromych zboczach i wysokich młotach. O wiele za dużo zbiorników morskich , Bæjarvatall , rozdzieliło wieś, a od niej leży długa i smukła laguna na zachodzie, ale przed nią znajduje się rafa piasku z czerwonej skorupy i jest całkiem pewne, że wieś czerpie nazwę z piasku, chociaż w Landnámabók mówi, że Armöd , syn czerwonego Thorbjörna wylądować na Czerwonym Piasku.</h2> <br><br>
+		<table id="tabela">
+			<tr>
+				<th id="th">Współrzędne skał:</th>
+				<th id="th">Wysokość nad poziomem morza:</th> 
+			</tr>
+			<tr>
+				<td id="td">65.478737, -24.072980</td>
+				<td id="td">0 m</td> 
+			</tr>
+		</table>
+		<br><br>
+			<div id="ciekawostki">
+				<h1>CIEKAWOSTKI</h1
+					<ul>
+					  <li id="lista1">
+Plaża Rauðasandur znajduje się obok Látrabjarg, najwyższych klifów obserwujących ptaki w Europie. Na tych klifach żyją miliony ptaków morskich, z brzytwami, gilotynami, mewami, fulmarami i setkami tysięcy maskonurów (od maja do września).</li><br>
+					  <li id="lista1">Powodem, dla którego Rauðasandur ma swoje niezwykłe zabarwienie, jest fakt, że Fiordy Zachodnie nie są już aktywne wulkanicznie, co oznacza, że ​​nie ma stałego tworzenia piasków popiołów, które występują na innych plażach, takich jak Reynisfjara na południu.</li>
+					</ul>
+			</div>
+		
+		
+		
+		
+		</div>
+		<div id="slider">
+			<img class="mySlides" src="zdjecia/slajd25.jpg">
+			<img class="mySlides" src="zdjecia/slajd26.jpg">
+			<img class="mySlides" src="zdjecia/slajd27.jpg">
+			<img class="mySlides" src="zdjecia/slajd28.jpg">
+		</div>
+		<div id="podslider">
+			<div id="drabina1">
+				<a href="https://is.wikipedia.org/wiki/Rauðisandur" class="a11" target="blank">Wikipedia</a>
+			</div>
+	
+			<div id="drabina1">
+				<a href="https://www.google.com/maps/place/Rauðisandur/@65.4684761,-24.2020697,11z/data=!3m1!4b1!4m5!3m4!1s0x48d554b27e5f6371:0xeea86c4a6993c630!8m2!3d65.4653763!4d-23.9878441" class="a11" target="blank">Mapa</a>
+			</div>
+			
+			<div id="drabina1">
+				<a href="https://www.google.com/search?q=Pla%C5%BCa+Rau%C3%B0isandur&source=lnms&tbm=isch&sa=X&ved=2ahUKEwio79awypPpAhUJxqYKHXz_DiAQ_AUoAnoECBYQBA&biw=1506&bih=1034" class="a11" target="blank">Zdjęcia</a>
+			</div>
+			<div id="drabina1">
+				<a href="https://guidetoiceland.is/travel-iceland/drive/raudasandur" class="a11" target="blank">Przewodnik</a>
+			</div>
+		</div>
+		
+		<div id="stopka">
+			<a href="index.html" class="AA">POWRÓT NA STRONĘ GŁÓWNĄ</a>
+			<br>
+		</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+</body>
+</html>

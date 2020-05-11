@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset=utf-8>
+<title>Wodospad Gljúfrabúi</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<body id="body">
+	<div id="zawar">
+	
+		<div id="log">
+		
+			<h1>✈ Wodospad Seljalandsfoss</h1>
+			
+		</div>
+		<br>
+		<div id="main">
+		
+		<h2 id="h2">Seljalandsfoss- jest jednym z ostatnich fragmentów rzeki Seljalandsá, której źródło znajduje się przy lodowcu Eyjafjallajökull. Wodospad powstał na odsłoniętym morskim klifie, który uformował się pod koniec ostatniej epoki lodowcowej. To właśnie w tym miejscu przebiegało wybrzeże, ale po stopieniu lodowca linia wody cofnęła się o kilka kilometrów, a dawne klify stały się umowną granicą pomiędzy górską a nizinną częścią Islandii.
+Dzięki odpryskom od spadającej wody najbliższą okolicę wodospadu porasta jaskrawo zielony mech. W słoneczny dzień przy wodospadzie pojawia się kolorowa tęcza, która nadaje mu kolorytu.</h2> <br><br>
+		<table id="tabela">
+			<tr>
+				<th id="th">Współrzędne wodospadu:</th>
+				<th id="th">Wysokość:</th> 
+			</tr>
+			<tr>
+				<td id="td">63.621055, -19.985370 </td>
+				<td id="td">60m</td> 
+			</tr>
+		</table>
+		<br><br>
+			<div id="ciekawostki">
+				<h1>CIEKAWOSTKI</h1
+					<ol type="2">
+					  <li>Wodospad położony jest na klifach dawnego wybrzeża</li><br>
+					  <li>Seljalandsfoss osiąga wysokość 60 m i maksymalną szerokość 15 m</li><br>
+					  <li>Za kaskadą wodospadu znajduje się obszerna jaskinia, do której można dostać się specjalną ścieżką</li><br>
+					  <li>Do wodospadu można dotrzeć drogą nr 249, od której znajduje się on w odległości kilkuset metrów</li><br>
+					</ol>
+			</div>
+		
+		
+		
+		
+		</div>
+		<div id="slider">
+			<img class="mySlides" src="zdjecia/slajd5.jpg">
+			<img class="mySlides" src="zdjecia/slajd6.jpg">
+			<img class="mySlides" src="zdjecia/slajd7.jpg">
+			<img class="mySlides" src="zdjecia/slajd8.jpg">
+		</div>
+		<div id="podslider">
+			<div id="drabina1">
+				<a href="https://pl.wikipedia.org/wiki/Seljalandsfoss" class="a11" target="blank">Wikipedia</a>
+			</div>
+	
+			<div id="drabina1">
+				<a href="https://www.google.com/maps/place/Seljalandsfoss/@63.6155983,-19.9906909,17z/data=!3m1!4b1!4m5!3m4!1s0x48d71eade8ef2415:0xae01e6205209178d!8m2!3d63.6156232!4d-19.9885688" class="a11" target="blank">Mapa</a>
+			</div>
+			
+			<div id="drabina1">
+				<a href="https://www.google.com/search?q=wodospad+glj%C3%BAfrab%C3%BAi+&tbm=isch&ved=2ahUKEwj4ma6pgZPpAhXPM-wKHZy0DNkQ2-cCegQIABAA&oq=wodospad+glj%C3%BAfrab%C3%BAi+&gs_lcp=CgNpbWcQAzIECAAQHlDBHljBHmCUKWgAcAB4AIABf4gBf5IBAzAuMZgBAKABAaoBC2d3cy13aXotaW1n&sclient=img&ei=TESsXvjDK8_nsAec6bLIDQ&bih=1034&biw=1506" class="a11" target="blank">Zdjęcia</a>
+			</div>
+			<div id="drabina1">
+				<a href="https://www.podrozepoeuropie.pl/wodospad-gljufrabui/" class="a11" target="blank">Przewodnik</a>
+			</div>
+		</div>
+		
+		<div id="stopka">
+			<a href="index.html" class="AA">POWRÓT NA STRONĘ GŁÓWNĄ</a>
+			<br>
+		</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+</body>
+</html>

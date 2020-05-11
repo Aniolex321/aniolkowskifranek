@@ -1,0 +1,251 @@
+#body
+{
+	background-color:#99CCFF;
+}
+#zawartosc
+{
+	width:1400px;
+	margin-left:auto;
+	margin-right:auto;	
+	background-color:;
+}
+#logo
+{
+	background-color:black;
+	text-align:center;
+	color:white;
+	padding:15px;
+}
+#linkwew
+{
+	float:left;
+	width:300px;
+	height:600px;
+	padding:10px;
+}
+#glowna
+{
+	float:left;
+	padding:10px;
+	width:720px;
+	height:600px;
+}
+#linkzew
+{
+	float:right;
+	width:300px;
+	height:600px;
+	padding:10px;
+}
+#stopka
+{
+	clear:both;
+	background-color:black;
+	color:white;
+	text-align:center;
+	
+	
+}
+#drabina
+{
+	
+	margin:10px;
+	font-size:20px;
+	text-align:center;
+	width:240px;
+	height:50px;
+	background-color:#FFFF66 ;
+	padding-top:10px;
+	border-style:solid;
+	border-left-width:7px;
+	border-right-width:7px;
+}
+.a1
+{
+	display:block;
+	font-size:20px;
+	width:240px;
+	height:50px;
+	text-decoration:none;
+	color:#3333CC;
+
+	
+}
+.a2
+{
+	display:block;
+	font-size:20px;
+	width:240px;
+	height:50px;
+	text-decoration:none;
+	color:#3333CC;
+	
+	
+}
+.a3
+{
+	display:block;
+	font-size:20px;
+	width:240px;
+	height:50px;
+	text-decoration:none;
+	color:#3333CC;
+	
+}
+.a4
+{
+	display:block;
+	font-size:20px;
+	width:240px;
+	height:50px;
+	text-decoration:none;
+	color:#3333CC;
+}
+.a5
+{
+	display:block;
+	font-size:20px;
+	width:240px;
+	height:50px;
+	text-decoration:none;
+	color:#3333CC;
+	}
+.a6
+{
+	display:block;
+	font-size:20px;
+	width:240px;
+	height:50px;
+	text-decoration:none;
+	color:#3333CC;
+}
+.a7
+{
+	display:block;
+	font-size:20px;
+	width:240px;
+	height:50px;
+	text-decoration:none;
+	color:#3333CC;
+}
+#TEKST
+{
+	margin:10px;
+	font-size:25px;
+	text-align:center;
+	width:240px;
+	height:50px;
+	background-color:#FFFF99;
+	padding-top:10px;
+	color:#000000;
+	border-style:solid;
+	border-width:7px;
+
+}
+#ankieta1
+{
+		text-align:center;
+}
+
+#label
+{
+	font-size:25px;
+}
+#log
+{
+	background-color:black;
+	text-align:center;
+	color:white;
+	padding:15px;
+	margin-bottom:auto;
+}
+#zawar
+{
+	width:1400px;
+	margin-left:auto;
+	margin-right:auto;	
+	background-color:;
+}
+.AA
+{
+	font-size:20px;
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+#main
+{
+	float:left;
+	width:800px;
+	height:800px;
+	padding:10px;
+}
+#slider
+{
+	float:left;
+	width:549px;
+	height:365px;
+	border-style:solid;
+	
+}
+#podslider
+{
+float:left;	
+width:300px;
+height:250px;
+text-align:center;
+}
+#drabina1
+{
+	margin:10px;
+	font-size:20px;
+	text-align:center;
+	width:545px;
+	height:60px;
+	background-color:#FFFF66 ;
+	padding-top:10px;
+	border-style:solid;
+	border-left-width:7px;
+	border-right-width:7px;
+}
+#tabela
+{
+	width:80%;
+	text-align:center;
+	margin:auto;
+	border-style:solid;
+	border-width:10px;
+	padding:15px;
+}
+#h2
+{
+	text-align:center;
+}
+#lista1
+{
+	font-size:25px;
+}
+#th
+{
+	color:#330099;
+	font-weight:bolder;
+	font-size:25px;
+}
+#td
+{
+	color:#990066 ;
+}
+#ciekawostki
+{
+	text-align:center;
+	 list-style-position: inside;
+}
+.a11
+{
+	display:block;
+	font-size:40px;
+	width:545px;
+	height:60px;
+	text-decoration:none;
+	color:#3333CC;
+}
